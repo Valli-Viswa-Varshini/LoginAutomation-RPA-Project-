@@ -1,0 +1,148 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="894,865" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="476,800" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Automation Anywhere Labs - Login" sap:VirtualizedContainerService.HintSize="434,708" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="2a696d4b-6a5e-47c9-8ef8-5460e44f5a85" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,492" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email address'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="2a696d4b-6a5e-47c9-8ef8-5460e44f5a85" Text="user@automationanywhere.com" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://developer.automationanywhere.com/challenges/AutomationAnywhereLabs-Login.html" DesignTimeRectangle="820, 437, 398, 38" ElementType="InputBox" FriendlyName="'INPUT inputEmail'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' aaname='' /&gt;" Guid="55d4ec6e-f034-4df5-88aa-0a10c10949bd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZIAAAAqCAYAAACZbN1WAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVHhe7dixasJQAIXhvv/DlQ7FoeLg4CSCi+ISbjmtCVqkrZz1++AMSe7+c/MyAKAgJABU7kJyOl/GZrsbb6v1eH3/MDMzW5Y2pBFpxa0lJPmQQ/vDcUzTdH0LAN/ShjQirbiNyRKSVCYHAOA3aUWaMVtCksK4iQDwl7QizZgtIcn/LwD4j9tmCAkATxMSACpCAkBFSACoCAkAFSEBoCIkAFSEBICKkABQERIAKkICQEVIAKgICQAVIQGgIiQAVIQEgIqQAFAREgAqQgJARUgAqAgJABUhAaAiJABUhASAipAAUBESACpCAkBFSACoCAkAlYcheVutxzRN1ycAeCytSDNmS0g2293YH47XJwB4LK1IM2ZLSE7ny1dhcsDNBICf0oY0Iq1IM2ZLSCIfUpkcyv8vMzOzeWlDGnEbkbgLCQA8S0gAKIzxCeEUJOyOpxbJAAAAAElFTkSuQmCC" InformativeScreenshot="66e327c4b2b0a91eaeeab28247cce519.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Automation Anywhere Labs - Login' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="820, 405, 97, 24" ElementType="Text" FriendlyName="'Email address'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' aaname='Email address' check:text='Email address' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGUAAAAcCAYAAAB4UXHGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIpSURBVGhD7ZZLjsIwDIbnKixYcBfEgotUXXCTLjhJhbgJQpwlk3dsx6GlQMcj+Zci0ab5Y/vLgx+jEieFIlAKRaAUikApFIFSKAKlUARKoQiUDCi3s9lvd6Yb4/N4MpvtyVzi48c0y/dhhsPO7IdHfF5fBMrVdLY4G9r6a+z/khQKEgslF+evpFCgFMr/g+KPmaMZxnDchOMtJukTJu+ALn3qCw3NkXxv8XlG8e7DEflxRcRzWj/ONx6dxeeKoVQ5l/E0Blq3ds4BfOkDuVstgGJNDmdz9y+AOX0H7yE7roNF88UBgbwMxcZJ/NGdZOULkmOySrFD39Y4+w5DIV5WHgjjn7yqfptT6vNzgPjvw2kaSiEYWg7aT4ypVgV2mlPUZ76T46nIkcPF6UR8aXGCOC8MLsRf+0M/3tuJ+DNadnxNAeDexeRmwZ4FpV5AOVE3nqxsL+QbilPnOgMwk0tuCUT+prU4XB+f4ypQwpEAx723U9JZXuIkhXTjvw6lHR+Sn5OHU+4k7LUCFM7zHSikaF4MlGYRkm8YUx8xIbanUKbqVImLOan2WgFKHVDYOUuh1Od1WnFljlhw5iJGvn4enG+K7TmU9B2OEV7Ylx72wRrY3z3cxTOhhC0FW5xgERSrXJDQupEE8iIUGmf1N9YrgknfOUDNWMt33UgWUQOKUwKYG1gotK9aMKCPbgICRSVBCkWgFIpAKRSBUigCpVAESqEIlEIRJ2N+AfMOI4gQ1LzYAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="2a696d4b-6a5e-47c9-8ef8-5460e44f5a85" Text="Automation123" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://developer.automationanywhere.com/challenges/AutomationAnywhereLabs-Login.html" DesignTimeRectangle="820, 523, 398, 38" ElementType="InputBoxPassword" FriendlyName="'INPUT inputPassword'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='Password' /&gt;" Guid="fbee94b6-c88b-49e1-b82f-01ef29267685" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZIAAAAqCAYAAACZbN1WAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVHhe7dixasJQAIXhvv/DlQ7FoeLg4CSCi+ISbjmtCVqkrZz1++AMSe7+c/MyAKAgJABU7kJyOl/GZrsbb6v1eH3/MDMzW5Y2pBFpxa0lJPmQQ/vDcUzTdH0LAN/ShjQirbiNyRKSVCYHAOA3aUWaMVtCksK4iQDwl7QizZgtIcn/LwD4j9tmCAkATxMSACpCAkBFSACoCAkAFSEBoCIkAFSEBICKkABQERIAKkICQEVIAKgICQAVIQGgIiQAVIQEgIqQAFAREgAqQgJARUgAqAgJABUhAaAiJABUhASAipAAUBESACpCAkBFSACoCAkAlYcheVutxzRN1ycAeCytSDNmS0g2293YH47XJwB4LK1IM2ZLSE7ny1dhcsDNBICf0oY0Iq1IM2ZLSCIfUpkcyv8vMzOzeWlDGnEbkbgLCQA8S0gAKIzxCeEUJOyOpxbJAAAAAElFTkSuQmCC" InformativeScreenshot="68c41fd30682008b7da7fd890797f510.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Automation Anywhere Labs - Login' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="820, 491, 66, 24" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' check:text='Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEYAAAAcCAYAAADcO8kVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHgSURBVFhH7ZPLjQIxDIa3FQ4cthfEgUZGc6CTOVAJGtEJQtTi9SMPJ7EBwWWF/EuRZhzbsb84PxAyFWAcBRhHAcZRgHEUYBwFGEcBxlGAIV1PsNseYLmmf1QH5gLT9hc23ZrOaftb9SqYBsT5+P1w3gKDWmecnPmS/r5Q74K5LQfY7E9wox9Oop5atmc92k/TVxbBNooSv9bGNejL6XOZdWCOc67nCGva4lwlNvu8AUZPzDrXAwDusOzr3hiP+7MGqg9HX46THLvlLmYUn4d5qq31kcbaRiRG1ZYvqAMmsboHqbnP9xSMVYQW7zfT5PjyDeuCqjhHA/eA0Eab5B1rFHX2BKb1c2KNuk0wdcxojc3kGy1L3UrZK01lpenCPT0dLA2NiqR8XGyy0X4D3wZMZ5fcRrNurOH70lMq4gRt083EFFUII6AKvwKq51I+sUsOso0N/zMwFgQbTNKz56PipKkLwqgFCqTW5tfY2V0wRizX+QGYodF0kB7zqUwBSvvjt847AGVflYuUbR1cju0a4SesYy0wKPZr8knPn4FBSeK0sJBVN5hBlaUKKE2mpZtgydn1eZFS0cNzzHBUvt7HAUNqeqAaDd8OTCgrwDgKMI4CjKMA4yjAOAowjgKMKYA/K0eGgpiBXPEAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Sign in'" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2a696d4b-6a5e-47c9-8ef8-5460e44f5a85" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://developer.automationanywhere.com/challenges/AutomationAnywhereLabs-Login.html" DesignTimeRectangle="820, 577, 398, 48" ElementType="Button" FriendlyName="'Sign in'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' aaname='Sign in' check:text='Sign in' /&gt;" Guid="c16f6b48-d745-4991-af6a-df122615a7dd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZIAAAA0CAYAAACgsL69AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATMSURBVHhe7d0xjuREGIbhRUIaIVZk3IGY45BzCsQgJiBaJBIuQIpW3GADRLgaIg6AxGoDAgJEXPidmaotl/9qe7oN6pp+P+kJxuPp7pVW/ye7bPezZIwxxpwQi8QYY8xJ2bVIfv8rpR9+Tenzn1L69PuUPv4mpavrlN77YnojSdL/itnLDGYWM5OZzcxoZvWeOblI/vwnpW9/SemT71L64KuUPrpZ/mMkSeeBGc2sZmYzu5nhp+boIqHRaDca78Ovlx9WknTemN3McGb5KUcpRxXJzav7N3//y+UHkySNhVnOTGe2H5NHFcnrN/eHQ56+kqSnh9nOjGfWPyabi4QFGhorenNJ0tPBrGfmb82mImFB5rnrIJJ0MZj5zP4tWS0SXshTWZJ0eZj9W8rkYJFwaOORiCRdLjpg7TRXt0hYbHFNRJJEFxxagO8WCSv30QtKki4PndBLWCRcS+y6iCQpoxN695ksioS7Gz2lJUlq0Q3RHfCLIuFWee9YlyS16AY6os2sSHh4l0cjkqQeOqJ90OOsSLhe2AcwSpJ66Ij23pJZkXilliRpTXsFVykSFlB4Rn30R5IkZXRFveheioQ7F73kV5K0hq6o73YvRcJKfPQH0rl58cfDf9oqtz+/+/1nvz1snPar/+7Ojym9ffh1nZfT9nq/24ft6e/p9artz6b3Cbe3Ovu9nH7OeVFtrz/XbLt0puqrt0qR8H2+0c7SOYlKhGwpkrI9SLdIptSvvWeRvJ0+T9nfItFg6IycUiR8OXy0s3RO8oBvh/tqkeTBToKCOVQkpAz3TkEsdPari4SU97VINBg6I6cUydX1ckfp3HRPOVWiIikDvCmRnlJY0/53yX+3U5GU182/t0g0GDojpxSJNyJqBIvTU8FAj4qkPZJZvE5TMHl/jhjK8Odv9yqS6ff5NN3dKS6LRIOhM3IsEo2nGro59ampvYtkVgo7FsmsPCwSDSYsEk9taUR54NdFEBVJ79RWtC9mRTL9XI4e8uvsUSTTz+X9p+0WiUYSntpysV0juG0Gc7mKqyqCqBzqI5D6aqmtRVJvu8tORVJvy7FINIJwsd3LfzWC2TCvUg/mXjm0A3uWDUVSyoHsWCTtqTqLRCMIL//1hkSNICqD2VCe9Ipk9rs6QSmERTIpR0B7Fsmk/lwWiUYQ3pDoI1IkSVt0H5HiQxslSVt0H9pIfIy8JGlN9zHyxC+2kiQdsvrFVn7VriTpEDri4FftElbi+YL36AUkSZeLbqiv1spZFAkLKB6VSJJadEO9yJ6zKBJy88pLgSVJ79AJdEOUsEiIV3BJkrL2Sq063SJ5/cZTXJKk+y6gE3rpFgnhzsXnXg4sSReLDqjvYo9ysEgI1wu7XiJJl4fZ394zEmW1SAgv5JGJJF0OZv6WEiGbioRwaOOaiSQ9fcz6tdNZdTYXCWGxhZV7T3VJ0tPDbGfGH1pYj/KoIsnhWmIayzvgJWl8zHJmeu8+kbUcVSSEuxu5VZ4390GPkjQeZjcznFke3bG+NUcXSQ4P72JBhsMhnlHvaS9JOl/MaGY1M5vZ3T6A8ZicXCR1aDQWaGg3vs+XL4e/ur5vvOgfJEn67zB7mcHMYmYys5kZfcrRR5Rdi8QYY8zlxSIxxhhzQlL6FzF2J6B2DsGEAAAAAElFTkSuQmCC" InformativeScreenshot="fdaf2cad7f0aef5ed06dfecd91ae9397.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Automation Anywhere Labs - Login' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 784" BrowserType="Edge" IconBase64="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" InformativeScreenshot="5c0a31d564e6a615011b254d4fed8b38.png" Selector="&lt;html app='msedge.exe' title='Automation Anywhere Labs - Login'/&gt;" Url="https://developer.automationanywhere.com/challenges/AutomationAnywhereLabs-Login.html" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
